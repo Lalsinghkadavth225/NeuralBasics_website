@@ -7,47 +7,97 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <header>
-        <h1>NeuralBasics</h1>
-        <h2>8-Week Career Acceleration Program</h2>
-        <p>Start or Switch Your Career to IT with a High-Paying Job!</p>
-    </header>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">NeuralBasics</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <section id="intro">
-        <p>Whether you're a fresher or an experienced professional (1–20+ years) from any background (B.Tech / B.Com / BBA / B.Sc / MBA / M.Tech, etc.), this 8-week Career Acceleration Program is designed just for you!</p>
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>8-Week Career Acceleration Program</h1>
+            <p>Start or Switch Your Career to IT with a High-Paying Job!</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
     </section>
 
-    <section id="who-can-join">
-        <h2>🎯 Who Can Join?</h2>
-        <ul>
-            <li>✅ Freshers</li>
-            <li>✅ Professionals from non-IT backgrounds</li>
-            <li>✅ IT Support professionals who want to become IT Developers</li>
-            <li>✅ Anyone looking to move into Big Data & Analytics</li>
-        </ul>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Who Can Join?</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>✅ Freshers</h3>
+                    <p>Begin your IT career from scratch.</p>
+                </div>
+                <div class="card">
+                    <h3>✅ Non-IT Professionals</h3>
+                    <p>Switch to IT from any background.</p>
+                </div>
+                <div class="card">
+                    <h3>✅ IT Support to Developers</h3>
+                    <p>Level up your skills.</p>
+                </div>
+                <div class="card">
+                    <h3>✅ Big Data Aspirants</h3>
+                    <p>Enter the world of data analytics.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="what-you-learn">
-        <h2>💡 What You'll Learn:</h2>
-        <ul>
-            <li><strong>Level 1</strong> – SQL, Python, GitHub and etc</li>
-            <li><strong>Level 2</strong> – Big Data tools </li>
-            <li><strong>Level 3</strong> – Cloud Tech and Subsets of Ai </li>
-        </ul>
-        <p>➡️ Training + Resume Prep + Interview Guidance</p>
-        <p>➡️ 100% Placement Support till you're placed! and after placement</p>
+    <section id="courses" class="section">
+        <div class="container">
+            <h2>What You'll Learn</h2>
+            <div class="courses-grid">
+                <div class="course">
+                    <h3>Level 1 – Foundations</h3>
+                    <p>SQL, Python, GitHub, and more.</p>
+                </div>
+                <div class="course">
+                    <h3>Level 2 – Big Data Tools</h3>
+                    <p>Master essential big data technologies.</p>
+                </div>
+                <div class="course">
+                    <h3>Level 3 – Cloud & AI</h3>
+                    <p>Cloud tech and AI subsets.</p>
+                </div>
+            </div>
+            <p>➡️ Training + Resume Prep + Interview Guidance</p>
+            <p>➡️ 100% Placement Support till you're placed!</p>
+        </div>
     </section>
 
-    <section id="duration">
-        <h2>🕒 Duration:</h2>
-        <p>8–10 Weeks (Online Training)</p>
+    <section class="section">
+        <div class="container">
+            <h2>Program Details</h2>
+            <div class="details">
+                <div class="detail">
+                    <h3>🕒 Duration</h3>
+                    <p>8–10 Weeks (Online Training)</p>
+                </div>
+                <div class="detail">
+                    <h3>📌 Program Fee</h3>
+                    <p>₹10,000 (enrollment fee)</p>
+                    <p>💼 Final Fee: 20% of your total CTC (after placement)</p>
+                    <p>💸 Pay in 3 monthly installments after placement</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="fees">
-        <h2>📌 Program Fee:</h2>
-        <p>₹10,000 (enrollment fee)</p>
-        <p>💼 Final Fee: 20% of your total CTC (after you get placed)</p>
-        <p>💸 Pay in 3 monthly installments after placement</p>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 NeuralBasics. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
         <p>💰 Final Fee includes Fixed Pay + Variable + Bonus + ESOPs</p>
     </section>
 
